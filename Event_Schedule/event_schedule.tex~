@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage[tmargin=0.3in]{geometry}
+\newcommand\ytl[2]{
+\parbox[b]{8em}{\hfill{\color{black}\bfseries\sffamily #1}~$\cdots\cdots$~}\makebox[0pt][c]{$\bullet$}\vrule\quad \parbox[c]{6cm}{\vspace{7pt}\color{black}\raggedright\sffamily #2\\[7pt]}\\[-3pt]}
+
+\usepackage{avant}
+\begin{document}
+\titlepage
+
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.15\textwidth}
+\flushleft	
+		\includegraphics[width=\linewidth]{gnu}
+	\end{subfigure}%
+		\begin{subfigure}{0.3\textwidth}
+		\centering	
+		\includegraphics[width=\linewidth]{foss_logo}
+	\end{subfigure}%
+		\begin{subfigure}{0.15\textwidth}
+\flushright
+		\includegraphics[width=\linewidth]{iist_logo}
+	\end{subfigure}
+\end{figure}
+
+
+\vspace*{-1cm}
+
+\centering
+{ \textbf{\LARGE FOSS Group, IIST}}\\
+{ \textbf{\Large Inauguration session}}\\
+\emph{Indian Institute of Space Science and Technology, Thiruvananthapuram}
+
+\centering
+
+\vspace{1cm}
+{ \begin{tabular}{rr}
+\textbf{DATE }:& Wednesday, August 24, 2016\\
+\textbf{VENUE }:& Seminar Hall, D4, IIST\end{tabular}}
+
+\begin{table}[H]
+\centering
+\begin{minipage}[t]{.7\linewidth}
+\color{gray}
+\rule{\linewidth}{1pt}
+\ytl{2.45 PM}{Welcome address}	
+\ytl{2.55 PM}{What is FOSS group?}
+\ytl{3.05 PM}{Director`s address}
+\ytl{3.15 PM}{\textbf{Github repository creation} by Dr. V K Dadhwal, Director, IIST}
+\ytl{3.25 PM}{FOSS based research in Aerospace Engineering by Dr. Manoj T. Nair}
+\ytl{3.35 PM}{FOSS tools for Avionics applications by Dr. Manoj  B S}
+\ytl{3.45 PM}{Research avenues and upcoming projects by Dr. Devendra Ghate}
+\ytl{3.55 PM}{Closing note}
+\bigskip
+\rule{\linewidth}{1pt}%
+\end{minipage}%
+\end{table}
+\end{document}

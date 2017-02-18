@@ -1,0 +1,60 @@
+\documentclass[12pt]{article}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage[tmargin=0.3in]{geometry}
+\newcommand\ytl[2]{
+\parbox[b]{8em}{\hfill{\color{black}\bfseries\sffamily #1}~$\cdots\cdots$~}\makebox[0pt][c]{$\bullet$}\vrule\quad \parbox[c]{6cm}{\vspace{7pt}\color{black}\raggedright\sffamily #2\\[7pt]}\\[-3pt]}
+
+\usepackage{avant}
+\begin{document}
+\titlepage
+
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.15\textwidth}
+\flushleft	
+		\includegraphics[width=\linewidth]{gnu}
+	\end{subfigure}%
+		\begin{subfigure}{0.3\textwidth}
+		\centering	
+		\includegraphics[width=\linewidth]{foss_logo}
+	\end{subfigure}%
+		\begin{subfigure}{0.15\textwidth}
+\flushright
+		\includegraphics[width=\linewidth]{iist_logo}
+	\end{subfigure}
+\end{figure}
+
+
+\vspace*{-1cm}
+
+\centering
+{ \textbf{\LARGE FOSS Group, IIST}}\\
+{ \textbf{\Large Event name}}\\
+\emph{Indian Institute of Space Science and Technology, Thiruvananthapuram}
+
+\centering
+
+\vspace{1cm}
+{ \begin{tabular}{rr}
+\textbf{DATE }:& Day, Month DD, YYYY\\
+\textbf{VENUE }:& D4, IIST\end{tabular}}
+
+\begin{table}[H]
+\centering
+\begin{minipage}[t]{.7\linewidth}
+\color{gray}
+\rule{\linewidth}{1pt}
+\ytl{2.45 PM}{Welcome address}	
+\ytl{2.55 PM}{Talk-1 by XYZ}
+\ytl{3.05 PM}{Tutorial session on XYZ}
+\ytl{3.15 PM}{Talk-2 by ZYX}
+\ytl{3.55 PM}{Closing note}
+\bigskip
+\rule{\linewidth}{1pt}%
+\end{minipage}%
+\end{table}
+\end{document}
