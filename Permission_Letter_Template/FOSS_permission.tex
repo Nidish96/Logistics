@@ -1,0 +1,92 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Lined Cover Letter
+% LaTeX Template
+% Version 1.0 (1/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Matthew J. Miller
+% http://www.matthewjmiller.net/howtos/customized-cover-letter-scripts/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,stdletternofrom,date,sigleft]{newlfm} % Extra options: 'sigleft' for a left-aligned signature, 'stdletternofrom' to remove the from address, 'letterpaper' for US letter paper - consult the newlfm class manual for more options
+
+\usepackage{charter} % Use the Charter font for the document text
+
+\usepackage{lipsum}
+\usepackage{url}
+\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{6in}{\vspace{0.5in}
+\begin{center}
+
+\end{center}}} % Company/institution logo at the top left of the page
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=0.5pt} % Slightly decrease the height of the signature field
+
+
+\lthUiuc % Print the company/institution logo
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{Regards,\\
+\begin{tabular}{ll}
+Student co-ordinators of FOSS cell\\\\\\
+Gowtham S & Nidish Narayanaa B\\
+SC13B020 & SC13B038\\
++91-9496930332 & +91-9496882251\\
+scigowtham@gmail.com & nidbid@gmail.com\\
+\end{tabular}} % Name
+
+\addrfrom{
+\today\\[13pt] % Date
+Gowtham S (SC13B020)\\Nidish B (SC13B038)\\ 8$^{th}$ Semester\\B.Tech Aerospace Engineering\\IIST\\Valiamala 695547
+}
+
+\phonefrom{+91-9496930332} % Phone number
+
+\emailfrom{gowtham.sc13b020@ug.iist.ac.in} % Email address
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+\greetto{Respected Sir,} % Greeting text
+\closeline{Thank you} % Closing text
+
+\nameto{The Director} % Addressee of the letter above the to address
+
+\addrto{
+Indian Institute of Space Science and Technology \\
+Valiamala 695547
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{newlfm}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+\begin{center}
+\underline{
+\emph{SUB: Here goes the subject of the letter}}
+\end{center}
+
+\lipsum[1-2]
+
+\end{newlfm}
+
+\end{document}

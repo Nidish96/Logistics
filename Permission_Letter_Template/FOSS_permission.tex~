@@ -1,0 +1,186 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Lined Cover Letter
+% LaTeX Template
+% Version 1.0 (1/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Matthew J. Miller
+% http://www.matthewjmiller.net/howtos/customized-cover-letter-scripts/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,stdletternofrom,date,sigleft]{newlfm} % Extra options: 'sigleft' for a left-aligned signature, 'stdletternofrom' to remove the from address, 'letterpaper' for US letter paper - consult the newlfm class manual for more options
+
+\usepackage{charter} % Use the Charter font for the document text
+
+\usepackage{url}
+\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{6in}{\vspace{0.5in}
+\begin{center}
+
+\end{center}}} % Company/institution logo at the top left of the page
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=0.5pt} % Slightly decrease the height of the signature field
+
+
+\lthUiuc % Print the company/institution logo
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{Regards,\\
+\begin{tabular}{ll}
+Student co-ordinators of FOSS cell\\\\\\
+Gowtham S & Nidish Narayanaa B\\
+SC13B020 & SC13B038\\
++91-9496930332 & +91-9496882251\\
+scigowtham@gmail.com & nidbid@gmail.com\\
+\end{tabular}} % Name
+
+\addrfrom{
+\today\\[13pt] % Date
+Gowtham S (SC13B020)\\Nidish B (SC13B038)\\ 6$^{th}$ Semester\\B.Tech Aerospace Engineering\\IIST\\Valiamala 695547
+}
+
+\phonefrom{+91-9496930332} % Phone number
+
+\emailfrom{gowtham.sc13b020@ug.iist.ac.in} % Email address
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+\greetto{Respected Sir,} % Greeting text
+\closeline{Thank you} % Closing text
+
+\nameto{The Director} % Addressee of the letter above the to address
+
+\addrto{
+Indian Institute of Space Science and Technology \\
+Valiamala 695547
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{newlfm}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+\begin{center}
+\underline{
+\emph{SUB: Formation of \textbf{F}ree and \textbf{O}pen \textbf{S}ource \textbf{S}oftware (FOSS) cell at IIST.}}
+\end{center}
+
+As students and academicians we often find ourselves in need of software for conducting numerical experiments and analysing data. As engineers this occupies the majority of our time. In an attempt to enhance the development of science and engineering the Free Software Foundation (FSF) has introduced the concept of FOSS. FOSS is any software that is \textbf{freely licensed to be used, copied and studied}. [Refer appendix]
+
+Keeping the above in mind, we, a group of 3$^{rd}$ year B.Tech students have come forward to set up IIST's very own FOSS cell. The main aim of the cell will be to motivate people to work for the development and propagation of FOSS. This is planned to be achieved through periodic demonstrations, workshops, installation fests, lectures etc. The cell will also promote the development of software in areas related with course work by building a repository of in-house open source tools. The amount of resources spent by the Institute on proprietary software and tools can be greatly reduced if such a cell operates efficiently. 
+
+
+\section{Faculty Mentors}
+
+The following Faculty members have agreed to guide and mentor us through the formation and coordination of the FOSS cell at IIST.
+
+
+\begin{itemize}
+\item[] $\diamond$ Dr. Manoj T Nair, Associate professor, Dept. of Aerospace
+\item[] $\diamond$ Dr. Manoj B S, Associate professor, Dept. of Avionics
+\item[] $\diamond$ Dr. S. Murugesh, Associate Professor \& Head, Dept. of Physics 
+\item[] $\diamond$ Dr. Vinoth  B R, Assistant Professor, Dept. of Aerospace
+\item[] $\diamond$ Dr. Natarajan E, Assistant Professor, Dept. of Mathematics
+\item[] $\diamond$ Dr. Devendra Ghate, Visiting Faculty, Dept. of Aerospace
+\end{itemize}
+
+\pagebreak
+\vspace*{1cm}
+
+\section{ Student Members}
+
+The following students have volunteered to be a part of the FOSS cell at IIST.
+
+\begin{itemize}
+\item[] $\diamond$ Gowtham S, 3$^{rd}$ year, B.Tech Aerospace
+\item[] $\diamond$ Nidish Narayanaa B, 3$^{rd}$ year, B.Tech Aerospace
+\item[] $\diamond$ Nikhil Anand, 3$^{rd}$ year, B.Tech Aerospace
+\item[] $\diamond$ Vishnu T S, 3$^{rd}$ year, B.Tech Avionics
+\item[] $\diamond$ Anand N, 3$^{rd}$ year, B.Tech Avionics
+\end{itemize}
+
+
+ 
+The formation of the FOSS cell will boost IIST's capabilities and overall contribution towards Open Source Softwares and the scientific community in general. 
+
+We request you to kindly go through our request and help us in instituting the FOSS cell of IIST. We hope to keep up the good work under your support and guidance.
+
+\end{newlfm}
+
+\section{Appendix}
+
+\section{What is FOSS?}
+
+FOSS is any software that is \textbf{freely licensed to be used, copied and studied}, while also allowing the community to change the software in any way since the  source code is openly shared. The modified or unmodified source code can also be distributed to anyone for any reason. This forms the basis of the GPL (GNU Public License) offered as a standard License for Open Source ware.
+The GNU Public License offers four kinds of freedom:
+\begin{itemize}
+\item[] $\diamond$ Freedom to run the Program for any purpose
+\item[] $\diamond$ Freedom to study how the program works
+\item[] $\diamond$ Freedom to redistribute copies
+\item[] $\diamond$ Freedom to improve the program and also release improvements to the public.
+\end{itemize}
+
+
+The main idea of FOSS is that \emph{Knowledge is a common heritage of mankind, and thus software, a form of knowledge, has to be free and accessible to all.}
+
+\section{Why FOSS?}
+
+The adoption of OSS will entail a series of advantages :
+\begin{itemize}
+\item[] $\diamond$ Lower cost
+\item[] $\diamond$ Better quality code
+\item[] $\diamond$ Rapid Innovation
+\item[] $\diamond$ Security
+\item[] $\diamond$ Community support
+\item[] $\diamond$ Customizability
+\item[] $\diamond$ Freedom
+\end{itemize}
+
+
+\section{GoI - Open Source Policy}
+
+On 27th March 2015, The Government of India (GoI) adopted a comprehensive and supportive open source policy (\url{http://deity.gov.in/sites/upload_files/dit/files/policy_on_adoption_of_oss.pdf}). The policy requests all governmental organizations    \textbf{to prefer the use of Open Source Software(OSS)} in all central government departments and ministries, with use of Closed Source Software (CSS) only being considered as an exception with sufficient justification.
+
+\pagebreak
+\section{FOSS in Kerala - ICFOSS}
+
+Further, in 2011 Government of Kerala setup ICFOSS (\textbf{I}nternational \textbf{C}entre for \textbf{F}ree and \textbf{O}pen \textbf{S}ource \textbf{S}oftware) aiming to make India a global leader in the Open source community. The mission of ICFOSS is to promote research and development in the area of Free and Open Source Software.
+
+ICFOSS has agreed to colloborate with us and support us in the formation of cell.
+
+\section{FOSS at work}
+
+
+Personally, using Open Source Software has enriched our lives in terms of bettering our understanding of core research areas. The use of community driven scientific softwares, packages and libraries like \textbf{OpenFOAM, FreeFEM++, TISEAN, GSL, Armadillo} and many more has enhanced the speed of our computations and we have been able to operate much more efficiently in terms of time.
+
+\section{Why FOSS at IIST?}
+
+Advantages like 
+\begin{itemize}
+\item[] $\diamond$ Increasing interoperability
+\item[] $\diamond$ Reducing costs
+\item[] $\diamond$ Achieving vendor independence
+\item[] $\diamond$  Reducing piracy/copyright infringements 
+\item[] $\diamond$ Increasing growth of knowledge-based society
+\end{itemize}
+ are the compelling reasons for adopting FOSS at IIST.
+\end{document}
